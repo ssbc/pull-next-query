@@ -1,0 +1,32 @@
+{
+  "name": "pull-next-query",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.1",
+    "lodash.set": "^4.3.2",
+    "pull-next": "^1.0.1",
+    "pull-stream": "^3.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/pull-next-query.git"
+  },
+  "keywords": [
+    "scuttlebutt",
+    "ssb-query",
+    "pull-stream"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssbc/pull-next-query/issues"
+  },
+  "homepage": "https://github.com/ssbc/pull-next-query#readme"
+}
