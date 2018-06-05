@@ -33,11 +33,8 @@ function nextStepper (createStream, opts = {}, stepOn = ['value', 'timestamp']) 
       if (lastValue == null) return
 
       incrementOpts(_opts, lastValue)
-      console.log('Last value', merge({}, _opts), lastValue)
       last = null
     }
-
-    console.log('NEXT', merge({}, _opts), count, movingBound)
 
     return pull(
       createStream(_opts),
