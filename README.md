@@ -52,7 +52,7 @@ pull(
 )
 ```
 
-This query will step back (from the present time) and fetch chunks of 100 'poll' type messages from the database, and stream these out to be logged (in thicase).
+This query will step back (from the present time) and fetch chunks of 100 'poll' type messages from the database, and stream these out to be logged (in this case).
 Once one the block of 100 messages has been read out, a new new query will be made, with opts adjusted to shift the window of the query, so that you're continuing from where the previous block left off.
 
 The final argument `['value', 'timestamp']` specifies the field on which to step.
